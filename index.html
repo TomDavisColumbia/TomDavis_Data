@@ -41,15 +41,21 @@
 			 */
 		for(var i=0;i<4;i++){	 
 			
-			var item = Makeup[i];
+			var cosmetics = Makeup[i];
+
+			if(cosmetics.type =="TrueMatch") {
+				console.log(cosmetics);
 			
-			if(item.type =="TrueMatch") {
-				console.log(item);
 			
 			
-			}//end of for loop
-		}else{ 
-		console.log("It's a true match for me")
+		}else{
+			
+		console.log("It's a true match for me");
+		}//end of conditional
+		
+			var favMakeup = [];
+			
+		}//end of for loop
 		
 		
 	
